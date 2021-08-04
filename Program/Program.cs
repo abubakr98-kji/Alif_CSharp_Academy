@@ -16,8 +16,10 @@ namespace Program
             double b = -5.50D;
             double c = 0.60D;
             double d = 1.40D;
-            // Console.WriteLine(Math.Pow(a * b ));
 
+            double ac = a - c;
+            double bc =  c-(b);
+            Console.WriteLine(ac+bc);
             ////////////////////////////////////////// Home Work 3
             
             double x1 = -6.20D;
