@@ -15,7 +15,6 @@ namespace Program
             double a = 1.40D;
             double b = -5.50D;
             double c = 0.60D;
-            double d = 1.40D;
 
             double ac = a - c;
             double bc =  c-(b);
@@ -56,7 +55,8 @@ namespace Program
             int saturday = 6;
 
             int dayK = 202;
-
+            int dayToMonth = dayK % 7;
+            Console.WriteLine(dayToMonth);
 
         }
     }
