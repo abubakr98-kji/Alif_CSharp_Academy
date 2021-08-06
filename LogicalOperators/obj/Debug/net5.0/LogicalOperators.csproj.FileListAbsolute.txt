@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\bin\Debug\net5.0\LogicalOperators.exe
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\bin\Debug\net5.0\LogicalOperators.deps.json
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\bin\Debug\net5.0\LogicalOperators.runtimeconfig.json
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\bin\Debug\net5.0\LogicalOperators.runtimeconfig.dev.json
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\bin\Debug\net5.0\LogicalOperators.dll
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\bin\Debug\net5.0\ref\LogicalOperators.dll
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\bin\Debug\net5.0\LogicalOperators.pdb
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\LogicalOperators.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\LogicalOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\LogicalOperators.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\LogicalOperators.AssemblyInfo.cs
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\LogicalOperators.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\LogicalOperators.dll
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\ref\LogicalOperators.dll
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\LogicalOperators.pdb
+C:\Users\admin\Desktop\c#_projects\LogicalOperators\LogicalOperators\obj\Debug\net5.0\LogicalOperators.genruntimeconfig.cache
