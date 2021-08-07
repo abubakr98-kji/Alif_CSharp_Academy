@@ -8,7 +8,7 @@ namespace LogicalOperators
     {
         static void Main(string[] args)
         {
-            Home Work 2
+            //Home Work 2
             int b = Convert.ToInt32(Console.ReadLine());
             int c = Convert.ToInt32(Console.ReadLine());
             if ((b>c) )
