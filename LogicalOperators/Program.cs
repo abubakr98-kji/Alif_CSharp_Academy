@@ -49,7 +49,6 @@ namespace LogicalOperators
                      if (  operand2==0 )
                      {
                          
-                         // Console.WriteLine(operand1/operand2 );
                          Console.WriteLine("dont do it bro");
                      }
                      else
