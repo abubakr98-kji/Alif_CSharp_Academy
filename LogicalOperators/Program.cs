@@ -8,57 +8,57 @@ namespace LogicalOperators
     {
         static void Main(string[] args)
         {
-            // Home Work 2
-            // int b = Convert.ToInt32(Console.ReadLine());
-            // int c = Convert.ToInt32(Console.ReadLine());
-            // if ((b>c) )
-            // {
-            //     b = b;
-            //     c = b;
-            //    Console.WriteLine($"Expression b: {b} , Expression c: {c}");
-            // }else if (b<c)
-            // {
-            //     b = c;
-            //     c = c;
-            //     Console.WriteLine($"Expression b: {b}, Expression c: {c}"); 
-            // }else if(b==c)
-            // {
-            //     b = 0;
-            //     c = 0;
-            //     Console.WriteLine(($"Expression b: {b}, Expression c: {c}"));
-            // }
-            //
+            Home Work 2
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
+            if ((b>c) )
+            {
+                b = b;
+                c = b;
+               Console.WriteLine($"Expression b: {b} , Expression c: {c}");
+            }else if (b<c)
+            {
+                b = c;
+                c = c;
+                Console.WriteLine($"Expression b: {b}, Expression c: {c}"); 
+            }else if(b==c)
+            {
+                b = 0;
+                c = 0;
+                Console.WriteLine(($"Expression b: {b}, Expression c: {c}"));
+            }
+            
             
             // Home Work 3
-             // int operand1 = int.Parse(Console.ReadLine());
-             // int operand2 = int.Parse(Console.ReadLine());
-             // string sign = Console.ReadLine();
-             //
-             // switch (sign)
-             // {
-             //     case "+" :
-             //         Console.WriteLine(operand1+operand2);
-             //         break;
-             //     case "-":
-             //         Console.WriteLine(operand1-operand2);
-             //         break;
-             //     case "*":
-             //         Console.WriteLine(operand1*operand2);
-             //         break;
-             //     case "/": 
-             //         if (  operand2==0 )
-             //         {
-             //             
-             //             Console.WriteLine("dont do it bro");
-             //         }
-             //         else
-             //         {
-             //            Console.WriteLine( operand1 / operand2);
-             //         }
-             //
-             //         break;
-             //
-             // }
+             int operand1 = int.Parse(Console.ReadLine());
+             int operand2 = int.Parse(Console.ReadLine());
+             string sign = Console.ReadLine();
+             
+             switch (sign)
+             {
+                 case "+" :
+                     Console.WriteLine(operand1+operand2);
+                     break;
+                 case "-":
+                     Console.WriteLine(operand1-operand2);
+                     break;
+                 case "*":
+                     Console.WriteLine(operand1*operand2);
+                     break;
+                 case "/": 
+                     if (  operand2==0 )
+                     {
+                         
+                         Console.WriteLine("dont do it bro");
+                     }
+                     else
+                     {
+                        Console.WriteLine( operand1 / operand2);
+                     }
+             
+                     break;
+             
+             }
 
              // Home Work 4
              // int enter = Convert.ToInt32(Console.ReadLine() );
