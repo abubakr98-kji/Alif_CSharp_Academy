@@ -46,6 +46,7 @@ namespace Program
             Console.WriteLine(decimal.Round(result));
             
             //////////////////////////////////////////
+            
             int sunday = 0;
             int monday = 1;
             int tuesday = 2;
