@@ -35,9 +35,13 @@ namespace Program
             
             ///////////////////////////////////////// Home Work 4 
             
-            int num1 = 4;
-            int num2 = 1;
-            Console.WriteLine($"{num2}{num1}");
+            
+            int num41 = 41;
+            int substract = 41 - 40;
+            int sumof = substract + 3;
+            
+            Console.WriteLine($"Original number :{num41}");
+            Console.WriteLine($"Reverse number :{substract}{sumof}");
             
             ///////////////////////////////////////////Home Work 5
             
