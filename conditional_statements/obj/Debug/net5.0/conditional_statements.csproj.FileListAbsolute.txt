@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\bin\Debug\net5.0\conditional_statements.exe
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\bin\Debug\net5.0\conditional_statements.deps.json
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\bin\Debug\net5.0\conditional_statements.runtimeconfig.json
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\bin\Debug\net5.0\conditional_statements.runtimeconfig.dev.json
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\bin\Debug\net5.0\conditional_statements.dll
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\bin\Debug\net5.0\ref\conditional_statements.dll
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\bin\Debug\net5.0\conditional_statements.pdb
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\conditional_statements.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\conditional_statements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\conditional_statements.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\conditional_statements.AssemblyInfo.cs
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\conditional_statements.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\conditional_statements.dll
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\ref\conditional_statements.dll
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\conditional_statements.pdb
+C:\Users\admin\Desktop\c#_projects\conditional_statements\conditional_statements\obj\Debug\net5.0\conditional_statements.genruntimeconfig.cache
