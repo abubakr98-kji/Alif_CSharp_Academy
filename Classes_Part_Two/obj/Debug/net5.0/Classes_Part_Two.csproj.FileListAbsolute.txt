@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\bin\Debug\net5.0\Classes_Part_Two.exe
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\bin\Debug\net5.0\Classes_Part_Two.deps.json
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\bin\Debug\net5.0\Classes_Part_Two.runtimeconfig.json
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\bin\Debug\net5.0\Classes_Part_Two.runtimeconfig.dev.json
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\bin\Debug\net5.0\Classes_Part_Two.dll
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\bin\Debug\net5.0\ref\Classes_Part_Two.dll
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\bin\Debug\net5.0\Classes_Part_Two.pdb
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\Classes_Part_Two.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\Classes_Part_Two.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\Classes_Part_Two.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\Classes_Part_Two.AssemblyInfo.cs
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\Classes_Part_Two.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\Classes_Part_Two.dll
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\ref\Classes_Part_Two.dll
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\Classes_Part_Two.pdb
+C:\Users\admin\Desktop\c#_projects\Classes_Part_Two\Classes_Part_Two\obj\Debug\net5.0\Classes_Part_Two.genruntimeconfig.cache
