@@ -10,30 +10,30 @@ namespace array_part1
         {
 
             ///home work 1.a
-             int a = Convert.ToInt32(Console.ReadLine());
-             int b = Convert.ToInt32(Console.ReadLine());
-            
-             int sum = 0;
-            
-             for (int i = a+1; i < b; i++)
-             {
-                 sum += i;
-            
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            int sum = 0;
+
+            for (int i = a + 1; i < b; i++)
+            {
+                sum += i;
+
                 Console.WriteLine($"Sum of numbers between a and b is:{sum}");
-             }
+            }
 
-            /home work 1.b
+            //home work 1.b
 
-             int aa = Convert.ToInt32(Console.ReadLine());
-             int bb = Convert.ToInt32(Console.ReadLine());
-            
-             for (int j = aa+1; j < bb; j ++)
-             {
-                 if (j%2==1)
-                 {
-                     Console.WriteLine(j);
-                 }
-             }
+            int aa = Convert.ToInt32(Console.ReadLine());
+            int bb = Convert.ToInt32(Console.ReadLine());
+
+            for (int j = aa + 1; j < bb; j++)
+            {
+                if (j % 2 == 1)
+                {
+                    Console.WriteLine(j);
+                }
+            }
 
 
 
@@ -47,9 +47,10 @@ namespace array_part1
                 {
                     Console.Write("*");
                 }
+
                 Console.WriteLine();
-            } 
-             
+            }
+
 
 
             /*Прямоугольный трегольник*/
@@ -60,14 +61,14 @@ namespace array_part1
                     Console.Write("*");
                     Console.Write(" ");
                 }
-            
+
                 Console.WriteLine();
             }
-            
+
             Console.Write("\n");
             Console.Write("\n");
             Console.Write("\n");
-            
+
 
 
 
@@ -93,9 +94,9 @@ namespace array_part1
             Console.Write("Enter the maximum number of *: ");
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\nHere is the Diamond of Stars\n");
-            
+
             for (int i = 1; i <= n; i++)
-            
+
             {
                 for (int j = 0; j < (n - i); j++)
                     Console.Write(" ");
@@ -108,44 +109,45 @@ namespace array_part1
 
             for (int i = n - 1; i >= 1; i--)
             {
-            
+
                 for (int j = 0; j < (n - i); j++)
-            
+
                     Console.Write(" ");
-            
+
                 for (int j = 1; j <= i; j++)
-            
+
                     Console.Write("*");
-            
+
                 for (int k = 1; k < i; k++)
 
-                        Console.Write("*");
-            
-                    Console.WriteLine();
-                }
-            
+                    Console.Write("*");
+
                 Console.WriteLine();
             }
 
-
-            /*Home work 4*/
-            int first_Deposite = 1000;
-            int month = 12;
-            int max_value = 25;
-            int i;
-            int j;
+            Console.WriteLine();
             
-            for (i = 1; i < max_value; i++)
+            /*Home Work*/
+            int first_Deposite = 1000;
+
+            int month = 12;
+
+            // int max_value = 25;
+            int c;
+
+            int d;
+
+            for (c = 1; c<25; c++)
             {
-                for ( j= 1; j < month; j++)
+                for (d = 1; d < month; d++)
                 {
-                    int calc =((first_Deposite*i)/100);
-                    first_Deposite+= calc;
-                    if (first_Deposite<=1100)
+                    int calc = ((first_Deposite * c) / 100);
+                    first_Deposite += calc;
+                    if (first_Deposite <= 1100)
                     {
-                        Console.WriteLine($"Month{j}/ Percantage {i} = {first_Deposite}");
+                        Console.WriteLine($"Month{d}/ Percantage {c} = {first_Deposite}");
                     }
-                    else if (first_Deposite>1100)
+                    else if (first_Deposite > 1100)
                     {
                         first_Deposite = 1000;
                         break;
@@ -155,13 +157,15 @@ namespace array_part1
 
             }
             
-            
-            
-            
         }
 
     }
+
 }
+
+
+
+
 
 
 
