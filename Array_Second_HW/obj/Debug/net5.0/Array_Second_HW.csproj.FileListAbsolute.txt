@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\bin\Debug\net5.0\Array_Second_HW.exe
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\bin\Debug\net5.0\Array_Second_HW.deps.json
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\bin\Debug\net5.0\Array_Second_HW.runtimeconfig.json
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\bin\Debug\net5.0\Array_Second_HW.runtimeconfig.dev.json
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\bin\Debug\net5.0\Array_Second_HW.dll
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\bin\Debug\net5.0\ref\Array_Second_HW.dll
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\bin\Debug\net5.0\Array_Second_HW.pdb
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\Array_Second_HW.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\Array_Second_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\Array_Second_HW.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\Array_Second_HW.AssemblyInfo.cs
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\Array_Second_HW.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\Array_Second_HW.dll
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\ref\Array_Second_HW.dll
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\Array_Second_HW.pdb
+C:\Users\admin\Desktop\c#_projects\Class_Part_One\Array_Second_HW\obj\Debug\net5.0\Array_Second_HW.genruntimeconfig.cache
