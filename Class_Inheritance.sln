@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Inheritance", "Class_Inheritance\Class_Inheritance.csproj", "{A482CFF5-29ED-4ABD-BE53-517568FFB221}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A482CFF5-29ED-4ABD-BE53-517568FFB221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A482CFF5-29ED-4ABD-BE53-517568FFB221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A482CFF5-29ED-4ABD-BE53-517568FFB221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A482CFF5-29ED-4ABD-BE53-517568FFB221}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

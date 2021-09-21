@@ -1,0 +1,16 @@
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\bin\Debug\net5.0\Class_Inheritance.exe
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\bin\Debug\net5.0\Class_Inheritance.deps.json
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\bin\Debug\net5.0\Class_Inheritance.runtimeconfig.json
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\bin\Debug\net5.0\Class_Inheritance.runtimeconfig.dev.json
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\bin\Debug\net5.0\Class_Inheritance.dll
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\bin\Debug\net5.0\ref\Class_Inheritance.dll
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\bin\Debug\net5.0\Class_Inheritance.pdb
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\Class_Inheritance.csprojAssemblyReference.cache
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\Class_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\Class_Inheritance.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\Class_Inheritance.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\Class_Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\Class_Inheritance.dll
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\ref\Class_Inheritance.dll
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\Class_Inheritance.pdb
+C:\Users\admin\RiderProjects\Class_Inheritance\Class_Inheritance\obj\Debug\net5.0\Class_Inheritance.genruntimeconfig.cache
