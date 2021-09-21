@@ -1,0 +1,16 @@
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\bin\Debug\net5.0\Task_Interface.exe
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\bin\Debug\net5.0\Task_Interface.deps.json
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\bin\Debug\net5.0\Task_Interface.runtimeconfig.json
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\bin\Debug\net5.0\Task_Interface.runtimeconfig.dev.json
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\bin\Debug\net5.0\Task_Interface.dll
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\bin\Debug\net5.0\ref\Task_Interface.dll
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\bin\Debug\net5.0\Task_Interface.pdb
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\Task_Interface.csprojAssemblyReference.cache
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\Task_Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\Task_Interface.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\Task_Interface.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\Task_Interface.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\Task_Interface.dll
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\ref\Task_Interface.dll
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\Task_Interface.pdb
+C:\Users\admin\RiderProjects\Task_Interface\Task_Interface\obj\Debug\net5.0\Task_Interface.genruntimeconfig.cache
