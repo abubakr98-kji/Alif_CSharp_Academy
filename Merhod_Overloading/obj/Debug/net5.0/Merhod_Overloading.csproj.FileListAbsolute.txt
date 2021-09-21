@@ -1,0 +1,16 @@
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\bin\Debug\net5.0\Merhod_Overloading.exe
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\bin\Debug\net5.0\Merhod_Overloading.deps.json
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\bin\Debug\net5.0\Merhod_Overloading.runtimeconfig.json
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\bin\Debug\net5.0\Merhod_Overloading.runtimeconfig.dev.json
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\bin\Debug\net5.0\Merhod_Overloading.dll
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\bin\Debug\net5.0\ref\Merhod_Overloading.dll
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\bin\Debug\net5.0\Merhod_Overloading.pdb
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\Merhod_Overloading.csprojAssemblyReference.cache
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\Merhod_Overloading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\Merhod_Overloading.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\Merhod_Overloading.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\Merhod_Overloading.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\Merhod_Overloading.dll
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\ref\Merhod_Overloading.dll
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\Merhod_Overloading.pdb
+C:\Users\admin\RiderProjects\Merhod_Overloading\Merhod_Overloading\obj\Debug\net5.0\Merhod_Overloading.genruntimeconfig.cache
