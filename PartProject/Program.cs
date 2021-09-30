@@ -24,7 +24,7 @@ namespace PartProject
             // newUser.Login = login;
             // newUser.Status = userStatus;
             // newUser.Passport = passportData;
-            newUser.UserRegistration(ref connection);
+            // newUser.UserRegistration(ref connection);
             newUser.Questionnaire(ref connection);
 
             // Questionnaire userQuestionnaire = new Questionnaire();
