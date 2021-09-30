@@ -73,105 +73,105 @@ namespace PartProject
         {
             
             // //Gender
-            Console.WriteLine("Please enter below your gender, you have two options 'male' and 'female'");
-            genderCheck:string gender = Console.ReadLine();
-            string genderMale = "male";
-            string genderFemale = "female";
-            int male = 1;
-            int female = 2;
-            int genderScore;
-            
-            
-            
-            switch (gender)
-            {
-                case "male":
-                    genderFemale = null;
-                    Console.WriteLine($"Your gender is: {genderMale} and your credit point is: {male}");
-                    genderScore = male;
-                    break;
-                case "female":
-                    genderMale = null;
-                    Console.WriteLine($"Your gender is: {genderFemale} and your credit point is: {female}");
-                    genderScore = female;
-                    break;
-                default:
-                    Console.WriteLine("Dear customer gender you entered does not exist please enter one of those options 'male' or 'female' ");
-                    goto genderCheck;
-            }
-            
+            // Console.WriteLine("Please enter below your gender, you have two options 'male' and 'female'");
+            // genderCheck:string gender = Console.ReadLine();
+            // string genderMale = "male";
+            // string genderFemale = "female";
+            // int male = 1;
+            // int female = 2;
+            // int genderScore;
+            //
+            //
+            //
+            // switch (gender)
+            // {
+            //     case "male":
+            //         genderFemale = null;
+            //         Console.WriteLine($"Your gender is: {genderMale} and your credit point is: {male}");
+            //         genderScore = male;
+            //         break;
+            //     case "female":
+            //         genderMale = null;
+            //         Console.WriteLine($"Your gender is: {genderFemale} and your credit point is: {female}");
+            //         genderScore = female;
+            //         break;
+            //     default:
+            //         Console.WriteLine("Dear customer gender you entered does not exist please enter one of those options 'male' or 'female' ");
+            //         goto genderCheck;
+            // }
+            //
             string conString = connect;
-            string commandText = $"INSERT INTO Gender(Male, Female) VALUES('{genderMale}','{genderFemale}')";
-            
-            using (SqlConnection connection =new SqlConnection(conString))
-            {
-                connection.Open();
-                SqlCommand command = new SqlCommand(commandText,connection);
-                int number = command.ExecuteNonQuery();
-                Console.WriteLine($"User{number} gender is {gender} and his credit is {genderScore}");
-            }
+            // string commandText = $"INSERT INTO Gender(Male, Female) VALUES('{genderMale}','{genderFemale}')";
+            //
+            // using (SqlConnection connection =new SqlConnection(conString))
+            // {
+            //     connection.Open();
+            //     SqlCommand command = new SqlCommand(commandText,connection);
+            //     int number = command.ExecuteNonQuery();
+            //     Console.WriteLine($"User{number} gender is {gender} and his credit is {genderScore}");
+            // }
             // //Gender Questions End
             //
             //
             // /*Family Status Questions*/
             //
-            Console.WriteLine("Please enter below your Family Status, you have four options 'alone', 'haveFamily', 'divorced', 'widowWidower'");
-            FamilyStatusCheck:string familyStatus = Console.ReadLine();
-            
-            //Variables to count credit
-            int alone = 1;
-            int haveFamily = 2;
-            int divorced = 1;
-            int widowWidower = 2;
-            int zero = 0;
-            
-            int familyScore; 
-            
-            switch (familyStatus)
-            {
-                case "alone":
-                    haveFamily = zero;
-                    divorced = zero;
-                    widowWidower = zero;
-                    familyScore = genderScore+alone;
-                    Console.WriteLine($"You are {familyStatus} and your {gender} point adds extra {alone} point!Totally {familyScore}");
-                    break;
-                case "haveFamily":
-                    alone = 0;
-                    divorced = 0;
-                    widowWidower = 0;
-                    familyScore = genderScore+haveFamily;
-                    Console.WriteLine($"You  {familyStatus} and your {gender} point adds extra {haveFamily} point!Totally {familyScore}");
-                    break;
-                case "divorced":
-                    alone = 0;
-                    haveFamily = 0;
-                    widowWidower = 0;
-                    familyScore = genderScore+divorced;
-                    Console.WriteLine($"You are {familyStatus} and your {gender} point adds extra {divorced} point!Totally {familyScore}");
-                    break;
-                case "widowWidower":
-                    alone = 0;
-                    haveFamily = 0;
-                    divorced = 0;
-                    familyScore = genderScore+widowWidower;
-                    Console.WriteLine($"You are {familyStatus} and your {gender} point adds extra {widowWidower} point!Totally {familyScore}");
-                    break;
-                default:
-                    Console.WriteLine($"Dear Customer i told you we just have four options 'alone', 'haveFamily', 'divorced', 'widowWidower'");
-                    goto FamilyStatusCheck;
-            }
-            
-            string familyCommand = $"INSERT INTO FamilySituation(Unmarried, Married, Divorced, Widow_Widower) VALUES('{alone}','{haveFamily}','{divorced}','{widowWidower}')";
-            
-            using (SqlConnection connection = new SqlConnection(conString))
-            {
-                connection.Open();
-                SqlCommand command = new SqlCommand(familyCommand, connection);
-                int number = command.ExecuteNonQuery();
-                Console.WriteLine($"This Customer {familyStatus} his/her score for now is {familyScore}");
-            
-            }
+            // Console.WriteLine("Please enter below your Family Status, you have four options 'alone', 'haveFamily', 'divorced', 'widowWidower'");
+            // FamilyStatusCheck:string familyStatus = Console.ReadLine();
+            //
+            // //Variables to count credit
+            // int alone = 1;
+            // int haveFamily = 2;
+            // int divorced = 1;
+            // int widowWidower = 2;
+            // int zero = 0;
+            //
+            // int familyScore; 
+            //
+            // switch (familyStatus)
+            // {
+            //     case "alone":
+            //         haveFamily = zero;
+            //         divorced = zero;
+            //         widowWidower = zero;
+            //         familyScore = genderScore;
+            //         Console.WriteLine($"You are {familyStatus} and your {gender} point adds extra {alone} point!Totally {familyScore}");
+            //         break;
+            //     case "haveFamily":
+            //         alone = 0;
+            //         divorced = 0;
+            //         widowWidower = 0;
+            //         familyScore = genderScore;
+            //         Console.WriteLine($"You  {familyStatus} and your {gender} point adds extra {haveFamily} point!Totally {familyScore}");
+            //         break;
+            //     case "divorced":
+            //         alone = 0;
+            //         haveFamily = 0;
+            //         widowWidower = 0;
+            //         familyScore = genderScore;
+            //         Console.WriteLine($"You are {familyStatus} and your {gender} point adds extra {divorced} point!Totally {familyScore}");
+            //         break;
+            //     case "widowWidower":
+            //         alone = 0;
+            //         haveFamily = 0;
+            //         divorced = 0;
+            //         familyScore = genderScore;
+            //         Console.WriteLine($"You are {familyStatus} and your {gender} point adds extra {widowWidower} point!Totally {familyScore}");
+            //         break;
+            //     default:
+            //         Console.WriteLine($"Dear Customer i told you we just have four options 'alone', 'haveFamily', 'divorced', 'widowWidower'");
+            //         goto FamilyStatusCheck;
+            // }
+            //
+            // string familyCommand = $"INSERT INTO FamilySituation(Unmarried, Married, Divorced, Widow_Widower) VALUES('{alone}','{haveFamily}','{divorced}','{widowWidower}')";
+            //
+            // using (SqlConnection connection = new SqlConnection(conString))
+            // {
+            //     connection.Open();
+            //     SqlCommand command = new SqlCommand(familyCommand, connection);
+            //     int number = command.ExecuteNonQuery();
+            //     Console.WriteLine($"This Customer {familyStatus} his/her score for now is {familyScore}");
+            //
+            // }
             //Family Status  Questions End
             
             /*Age Status Questions*/
@@ -190,7 +190,7 @@ namespace PartProject
             switch (customerAge)
             {
                 case <=25:
-                    ageScore = underTF+familyScore;
+                    ageScore = underTF;
                     tFiveToThirtyThree = zeroAge;
                     tSixSixtyTwo = zeroAge;
                     overSixtyThree = zeroAge;
@@ -229,7 +229,7 @@ namespace PartProject
                 connection.Open();
                 SqlCommand command = new SqlCommand(ageCommand, connection);
                 int number = command.ExecuteNonQuery();
-                Console.WriteLine($"This Customer's {customerAge} his/her score for this is {ageScore}");
+                Console.WriteLine($"Customer age is added to DB{number}.\nThis is Customer's {customerAge} his/her score for this is {ageScore}");
             
             }
 
