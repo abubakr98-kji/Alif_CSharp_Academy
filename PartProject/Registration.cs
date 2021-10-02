@@ -28,7 +28,7 @@ namespace PartProject
             }
             else
             {
-                Console.WriteLine("Wrong login syntax");
+                Console.WriteLine("Wrong login syntax, number can not be more than 9 numbers!!");
                 goto statement1;
             }
             
@@ -37,16 +37,26 @@ namespace PartProject
             string password = Console.ReadLine();
             
             /*Status entry field*/
-            Console.WriteLine("In this field you need to choose your status it is possible to choose  two options 'admin' and 'user'");
+            statusCheck:Console.WriteLine("In this field you need to choose your status it is possible to choose  two options 'admin' and 'user'");
             string status = Console.ReadLine();
-            
+
+            switch (status)
+            {
+                case "admin":
+                    Console.WriteLine("You entered by admin status");
+                    break;
+                case "user":
+                    Console.WriteLine("You entered by user status");
+                    break;
+                default:
+                    Console.WriteLine("Status does not exist, please reenter again!!");
+                    goto statusCheck; 
+            }
             
             /*Here he/she enters Passport Data*/
             Console.WriteLine("Please enter your passport data");
             string passportData = Console.ReadLine();
             
-            
-        
             string conString = connect;//connection string
             string commandText = $"INSERT INTO UserRegistration (UserLogin, UserPassword, UserStatus, PassportData) VALUES('{num}','{password}','{status}','{passportData}')";
                 
