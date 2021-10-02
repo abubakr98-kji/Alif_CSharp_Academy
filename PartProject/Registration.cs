@@ -89,7 +89,7 @@ namespace PartProject
                     genderScore = female;
                     break;
                 default:
-                    Console.WriteLine("Dear customer gender you entered does not exist please enter one of those options 'male' or 'female' ");
+                    Console.WriteLine("Dear customer gender you entered does not exist please enter one of those options шт text format 'male' or 'female' ");
                     goto genderCheck;
             }
             
@@ -101,14 +101,14 @@ namespace PartProject
                 connection.Open();
                 SqlCommand command = new SqlCommand(commandText,connection);
                 int number = command.ExecuteNonQuery();
-                Console.WriteLine($"User{number} gender is {gender} and his credit is {genderScore}");
+                Console.WriteLine($"User{number} gender is {gender}. Your score is {genderScore}");
             }
             /*//////////////////////////////////////////////////////////////*/
             
             
             /*Family Status Questions*/
             
-            Console.WriteLine("Please enter below your Family Status, you have four options 'alone', 'haveFamily', 'divorced', 'widowWidower'");
+            Console.WriteLine("Please enter below your Family Status, you have four options please enter one of those in text format 'alone', 'haveFamily', 'divorced', 'widowWidower'");
             FamilyStatusCheck:string familyStatus = Console.ReadLine();
             
             //Variables to count credit
@@ -162,15 +162,15 @@ namespace PartProject
                 connection.Open();
                 SqlCommand command = new SqlCommand(familyCommand, connection);
                 int number = command.ExecuteNonQuery();
-                Console.WriteLine($"This Customer {familyStatus} his/her score for now is {familyScore}");
+                Console.WriteLine($"This Customer {familyStatus} his/her score for this is {familyScore}!");
             
             }
             /*/////////////////////////////////////////////////////*/
             
             /*Age Status Questions*/
             
-            Console.WriteLine("Please enter below your Age, you have four options '<25', '26-35', '36-62', '>63'");
-            ageCheck:int customerAge = Convert.ToInt32(Console.ReadLine());
+            ageCheck:Console.WriteLine("Please enter below your Age, you have four options '<25', '26-35', '36-62', '>63'. PLease don't enter symbols just numbers.");
+            int customerAge = Convert.ToInt32(Console.ReadLine());
             
             //Variables to count credit
             int underTF = 0;
@@ -189,14 +189,14 @@ namespace PartProject
                     overSixtyThree = zeroAge;
                     Console.WriteLine($"Your Age is under <25: {ageScore}");
                     break;
-                case int a when((a>=26) || (a<=35)):
+                case int a when((a>=26) && (a<=35)):
                     ageScore = tFiveToThirtyThree;
                     underTF = zeroAge;
                     tSixSixtyTwo = zeroAge;
                     overSixtyThree = zeroAge;
                     Console.WriteLine($"Customer age is 26-35: {ageScore}");
                     break;
-                case int b when ((b>=36)||(b<=62)):
+                case int b when ((b>=36)&&(b<=62)):
                     ageScore = tSixSixtyTwo;
                     underTF = zeroAge;
                     tFiveToThirtyThree = zeroAge;
@@ -229,8 +229,8 @@ namespace PartProject
             
             // Nationality Status Starts here
             
-            Console.WriteLine("Please enter below your Nationality, you have two options 'Tajikistan', and second is country where you are from");
-            nationalityCheck:string customerNationality = Console.ReadLine();
+            nationalityCheck:Console.WriteLine("Please enter below your Nationality, you have two options 'Tajikistan', and second is country where you are from. Please enter in text format!!");
+            string customerNationality = Console.ReadLine();
             
             //Variables to count credit
             string tajikNation = "Tajikistan";
@@ -274,8 +274,8 @@ namespace PartProject
             
             // Credit Period 
             
-            Console.WriteLine("Please enter below your your credit amount, you have two options '<12 ' months  and '>12' months");
-            creditPeriodtCheck:int customerCreditPeriod = Convert.ToInt32(Console.ReadLine());
+            creditPeriodCheck:Console.WriteLine("Please enter below Period of time you want to take for paying bills, you have two options '<12 ' months  and '>12' months\nPlease just enter numbers");
+            int customerCreditPeriod = Convert.ToInt32(Console.ReadLine());
             // string text = Convert.ToString(customerCreditPeriod);
 
             int underTwelve = 1;
@@ -296,7 +296,7 @@ namespace PartProject
                         break;
                     default :
                         Console.WriteLine($"Dear Customer what you entered is not number please reenter!!!");
-                        goto creditPeriodtCheck;
+                        goto creditPeriodCheck;
                 }
 
                 string creditPeriodCommand = $"INSERT INTO CreditPeriod(OverTwelveMonth, UnderTwelveMonth) VALUES('{overTwelve}','{underTwelve}')";
@@ -306,24 +306,20 @@ namespace PartProject
                 connection.Open();
                 SqlCommand command = new SqlCommand(creditPeriodCommand, connection);
                 int number = command.ExecuteNonQuery();
-                Console.WriteLine($"Your answer is added to DB;{number} Credit Period is {customerCreditPeriod} and you score for this is {crediPeriodScore}");
+                Console.WriteLine($"Your answer is added to DB:{number} Credit Period is {customerCreditPeriod} and you score for this is {crediPeriodScore}");
 
             }
             /*//////////////////////////////////////////////////////////////////*/
             
-            
-            // Sum of Credit of Total Amount Starts here
+            /* Sum of Credit of Total Amount Starts here */
             
             // Object customer wants to buy price
-            Console.WriteLine("Please enter below how much money does the thing you want to buy cost: ");
-            amountCheck:int priceOfObject = Convert.ToInt32(Console.ReadLine());
+            amountCheck:Console.WriteLine("Please enter below how much money does the thing you want to buy cost: ");
+            int priceOfObject = Convert.ToInt32(Console.ReadLine());
             
             // Customers salary
             Console.WriteLine("Please enter below your salary per year");
             int customerSalary = Convert.ToInt32(Console.ReadLine());
-            
-            //Amount 
-            Console.WriteLine("Please enter below what amount you want your credit cost , for example 80% of your seller?\nYou have 4 options '<80', '80-150', '150-250', '>250':  ");
             
             //credit calculation
             int calcAmount = (priceOfObject * 100) / customerSalary;
@@ -376,14 +372,14 @@ namespace PartProject
                 connection.Open();
                 SqlCommand command = new SqlCommand(amountCommand, connection);
                 int number = command.ExecuteNonQuery();
-                Console.WriteLine($"Amount of Credit: s{number} comparing to your income is: {calcAmount} score for this is: {amountScore} ");
+                Console.WriteLine($"Amount of Credit is added to DB: {number}.  Comparing to your income is percentage of credit is: {calcAmount}. Your score for this is: {amountScore} ");
 
             }
             /*////////////////////////////////////////////////////////*/
             
             // Credit History
             
-            Console.WriteLine($"PLease enter how many credits have you taken and closed , please enter number");
+            Console.WriteLine($"PLease enter how many credits have you taken and closed successfully, please enter number");
             creditHistoryCheck:int customerCreditHistory = Convert.ToInt32(Console.ReadLine());
 
             int overThreeCredits = 2;
@@ -428,7 +424,7 @@ namespace PartProject
 
             // Credit History Expire
             Console.WriteLine($"PLease enter how many credits have you expired , please enter number");
-            expiretHistoryCheck:int customerExpireCreditHistory = Convert.ToInt32(Console.ReadLine());
+            expireHistoryCheck:int customerExpireCreditHistory = Convert.ToInt32(Console.ReadLine());
 
             int overSevenCredits = -3;
             int fiveToSeven = -2;
@@ -482,7 +478,7 @@ namespace PartProject
 
 
             // Goal of Credit
-            Console.WriteLine($"PLease enter purpose of taking credit you have four options 'homeStuff','repair','telephone','other'!!!");
+            Console.WriteLine($"PLease enter purpose of taking credit you have four options 'homeStuff','repair','telephone','other'.\nPlease enter one of those options in text format!!!");
             creditGoalCheck:string customerCreditPurpose = Console.ReadLine();
 
             int homeStuff = 2;
@@ -540,8 +536,10 @@ namespace PartProject
             Console.WriteLine($"Dear Customer we have sum all scores according to your Questionnier answers to reveal can we give you credit or no. If your score is equal to 11 or less Sorry we can not give credit. If your score is greater than 11 Congratulations. ");
             int sumScore = ((genderScore + familyScore)+(ageScore+nationalityScore))+((amountScore+creditHistoryScore)+(expireScore+purposeScore)+crediPeriodScore);
             
+            Console.WriteLine($"Dear Customer your total score is: {sumScore}");
+            
             // Every month customer payment
-            int everyMonthCredit = priceOfObject / 12;
+            int everyMonthCredit = priceOfObject / customerCreditPeriod;
 
             switch (sumScore)
             {
@@ -559,12 +557,12 @@ namespace PartProject
                         case 0:
                             Console.WriteLine($"How you wish). But if you you want to know it later please come to room B212, our friendly specialists will provide you with any information you want.");
                             break;
-
                     }
                     break;
                 case <=11:
-                    Console.WriteLine($"Sorry deear customer your score is {sumScore}. Unfortunately we can not give you credit. But you can try later.)) ");
+                    Console.WriteLine($"Sorry dear customer your score is {sumScore}. Unfortunately we can not give you credit. But you can try later.)) ");
                     break;
+                
             }
             
             /*/////////////////////////////////////////////////////*/
