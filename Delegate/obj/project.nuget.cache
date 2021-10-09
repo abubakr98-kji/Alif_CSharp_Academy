@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lUqts5VjMMl7/hTAThP/wkG8VX7CpPVIceFBd70bKmNF/aEDl2Fx/FoRCx37o7uIMJnYxx9FZs5T00+dD+lX5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\c#_projects\\Delegate\\Delegate\\Delegate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
